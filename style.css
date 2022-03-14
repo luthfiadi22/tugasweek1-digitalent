@@ -128,7 +128,7 @@ a {
 }
 .feature{
     height: 612px;
-    width: 1440px;
+    width: 100%px;
     left: 0px;
     margin-top:-5px;
     border-radius: 0px;
@@ -195,4 +195,26 @@ a {
 .headline li{
     float:left;
     list-style: none;
+    align-items: left;
+    
+}
+.headline h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+.headline p{
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: 10px;
+
 }
