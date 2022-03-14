@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto";
+  }
+.header {
+    width:100%;
+    height:949px;
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+   
+}
+svg {
+    margin-top: -300px;
+}
+.navbar {
+    height:156px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 40px;
+}
+.navbar-logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+.navbar-menu,.navbar-btn{
+    list-style:none;
+}
+.navbar-menu li{
+    display: inline-block;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+}
+.navbar-btn li{
+    display: inline-block;
+    padding: 20px 1px;
+}
+.input_email{
+    
+    padding: 10px 39px;
+    
+    position: static;
+    left: 0%;
+    right: 35.92%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #EFEFEF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 39px;
+}
+.btn_subcribe{
+    color: #EF2779;
+    padding: 10px 38px;
+    
+    position: static;
+    left: 66.9%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Light text */
+    background: #FFFFFF;
+    border-radius: 35px;
+}
