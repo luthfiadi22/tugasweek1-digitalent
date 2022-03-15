@@ -291,3 +291,48 @@ a {
 .gambar-hero {
     padding-top: 100px;
 }
+
+footer{
+    background: #18171d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.alamat img{
+    height:35px;
+    width:30px;
+}
+
+.phone img{
+    height:35px;
+    width:23px;
+}
+
+.mail img{
+    height:25px;
+    width:30px;
+}
+
+.twitter img{
+    height:27px;
+    width:34px;
+    padding-bottom: 30px;
+}
+
+.facebook img{
+    height:32px;
+    width:32px;
+    padding-bottom: 30px;
+}
+
+.linkedin img{
+    height:32px;
+    width:32px;
+}
+
+.address{
+    text-align: center;
+}
