@@ -216,3 +216,77 @@ a {
     text-align: left;
     margin-top: 10px;
 }
+.hero {
+    height: 1271px;
+    width: 100%;
+    left: 0px;
+    top: 1561px;
+    border-radius: 0px;
+    padding: 80px, 0px, 80px, 0px;
+    background: #252B42;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.title-content {
+    height: 200px;
+    width: 358px;
+    left: 541px;
+    top: 80px;
+    border-radius: 0px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.title-content h2{
+
+    font-family: Roboto;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+}
+.title-content h4 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    padding-top: 30px;
+}
+.buttonhero {
+    height: 65px;
+    width: 236px;
+    left: 0px;
+    top: 0px;
+    border-radius: 35px;
+    padding: 16px, 0px, 16px, 0px;
+    background: #38A3F1;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.buttonhero h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.gambar-hero {
+    padding-top: 100px;
+}
