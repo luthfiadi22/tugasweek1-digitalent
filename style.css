@@ -423,6 +423,10 @@ nav ul{
     .checkbtn{
       display: block;
     }
+    nav {
+        
+    z-index: 10000;
+    }
     ul{
       position: fixed;
       width: 100%;
