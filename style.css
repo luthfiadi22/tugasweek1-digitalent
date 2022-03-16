@@ -89,10 +89,32 @@ a {
     color: #FFFFFF;
     font-family: "Roboto";
 }
-.content-right h1{
+text{
+    letter-spacing: 5px;
+    stroke: #ffa5d8;
+    font-size: 48px;
     font-weight: 900;
-    font-size: 55px;
-}
+    stroke-width: 3;
+   
+    animation: textAnimate 5s infinite alternate;
+    
+  }
+  
+  @keyframes textAnimate {
+    0% {
+      stroke-dasharray: 0 50%;
+      stroke-dashoffset:  20%;
+      fill: #FFFFFF;
+  
+    }
+    
+    100% {
+      stroke-dasharray: 50% 0;
+      stroke-dashoffstet: -20%;
+      fill: hsla(189, 68%, 75%,0%)
+    }
+    
+  }
 .content-right h4{
     font-weight: 700;
     font-size: 16px;
@@ -298,6 +320,25 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 50px;
+}
+.heading_footer h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+}
+.heading_footer p {
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
 
 }
 
@@ -336,3 +377,170 @@ footer{
 .address{
     text-align: center;
 }
+
+@media (max-width:1000px) {
+    .header {
+        width:100%;
+        height:649px;
+        background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+       
+    }
+    .navbar {
+        height:106px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px 10px;
+    }
+    .navbar-logo {
+        cursor: pointer;
+        margin-right: auto;
+    }
+    .navbar-menu,.navbar-btn{
+        list-style:none;
+    }
+    .navbar-menu li{
+        display: inline-block;
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .navbar-btn li{
+        display: inline-block;
+        padding: 20px 1px;
+    }
+    .input_email{
+        
+        padding: 10px 39px;
+        
+        position: static;
+        left: 0%;
+        right: 35.92%;
+        top: 0%;
+        bottom: 0%;
+        
+        background: #EFEFEF;
+        border: 1px solid #E8E8E8;
+        box-sizing: border-box;
+        border-radius: 39px;
+    }
+    .btn_subcribe{
+        color: #EF2779;
+        padding: 10px 38px;
+        
+        position: static;
+        left: 66.9%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        
+        /* Light text */
+        background: #FFFFFF;
+        border-radius: 35px;
+    }
+    .content-left img{
+      width: 115%;
+      height: auto;
+      padding-left: -65px;
+      padding-top: 10px;
+  }
+.content-right {
+    padding-left: 20px;
+}
+.animation {
+    margin-top:50px;
+    padding-left: 100px;
+  }
+  text{
+    letter-spacing: 5px;
+    stroke: #ffa5d8;
+    font-size: 45px;
+    font-weight: 900;
+    stroke-width: 3;
+
+  }
+  .content-right h4{
+      font-weight: 700;
+      font-size: 16px;
+      padding-top: 10px;
+      width: 298px;
+      height: 60px;
+      padding-left: 100px;
+      
+  }
+  
+  .btn_action{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px 10px;
+      margin-top: 20px;
+  
+      position: relative;
+      left: 20%;
+      right: 50%;
+      top: 0%;
+      bottom: 50%;
+  
+      /* Light text */
+      background: #FFFFFF;
+      border-radius: 35px;
+      color: #38A3F1;
+      font-family: "Roboto";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 33px;
+      letter-spacing: 0.10000000149011612px;
+      text-align: center;
+  
+  }
+  
+  .text-content h3{
+      margin-top: -150px;
+  }
+
+  /* feature */
+.feature{
+    height: 412px;
+    width: 100%px;
+    left: 0px;
+    border-radius: 0px;
+    background: #252B42;
+    padding-top: 250px;
+    color: #FFFFFF;
+}
+/* hero */
+.hero {
+    height: 971px;
+    width: 100%;
+    left: 0px;
+    top: 1561px;
+    border-radius: 0px;
+    padding: 80px, 0px, 80px, 0px;
+    background: #252B42;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+}
+.gambar-hero img {
+      width: 80%;
+      height: auto;
+}
+
+}
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
