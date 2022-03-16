@@ -336,3 +336,69 @@ footer{
 .address{
     text-align: center;
 }
+
+@media (max-width:1000px) {
+  .content-left img{
+    width: 100%;
+    height: auto;
+    padding-left: 70px;
+    padding-top: 200px;
+}
+
+.content-right h1 {
+    padding-top: 90px;
+    padding-left: 100px;
+    
+}
+.content-right h1{
+    font-weight: 800px;
+    font-size: 50px;
+     
+}
+.content-right h4{
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 10px;
+    width: 298px;
+    height: 60px;
+    padding-left: 100px;
+    
+}
+
+}
+.gambar-hero img {
+    width: 100%;
+    height: auto;
+}
+
+.btn_action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+
+    position: relative;
+    left: 30%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+
+    /* Light text */
+    background: #FFFFFF;
+    border-radius: 35px;
+    color: #38A3F1;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+
+}
+
+.text-content h3{
+    margin-top: -150px;
+}
+}
